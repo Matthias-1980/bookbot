@@ -1,3 +1,10 @@
+# Assuptions:
+#   That there exists a text file to read.
+#   That text file should be inside a folder called books.
+# Expected behaviour:
+#   N + C 
+#   Counts number of words and letters in read book.
+# Encapsulation change:
 def main():
     book_to_read = "books/frankenstein.txt"
     file_content = get_file_data(book_to_read)
